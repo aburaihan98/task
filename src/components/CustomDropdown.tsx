@@ -14,7 +14,7 @@ export default function CustomDropdownUCE() {
     <div className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="w-[164px] h-10 bg-white py-[10px] px-[20px] border border-[#edf1f2] rounded hover:border-[#4da3ff] flex items-center justify-between"
+        className="cursor-pointer w-[164px] h-10 bg-white py-[10px] px-[20px] border border-[#edf1f2] rounded hover:border-[#4da3ff] flex items-center justify-between"
       >
         <span className="text-gray-400">{selectedOption || "option"}</span>
         <div className="absolute inset-y-0 right-3 text-gray-400 text-lg flex items-center">

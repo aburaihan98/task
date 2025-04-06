@@ -8,7 +8,7 @@ import { TiDocumentText } from "react-icons/ti";
 
 function SideBar() {
   return (
-    <div className="py-4 px-4 mr-4">
+    <div className="py-4 px-4 mr-4 ">
       <p>dashboard</p>
       <div className="mt-6 space-y-6">
         <div className="space-y-4  border-l-2 border-[#edf1f2] pl-4">
