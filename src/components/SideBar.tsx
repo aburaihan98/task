@@ -1,4 +1,3 @@
-import React from "react";
 import { AiOutlineUsergroupDelete } from "react-icons/ai";
 import { FaRegUser } from "react-icons/fa";
 import { FaMinus, FaPlus } from "react-icons/fa6";

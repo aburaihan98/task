@@ -1,4 +1,3 @@
-import React from "react";
 import { BiSolidSearchAlt2 } from "react-icons/bi";
 import { FaPlus } from "react-icons/fa6";
 import { HiOutlineDotsVertical } from "react-icons/hi";

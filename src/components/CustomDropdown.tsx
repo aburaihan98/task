@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 export default function CustomDropdownUCE() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState("");
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [selectedOption, setSelectedOption] = useState<string>("");
 
-  const selectOption = (option) => {
+  const selectOption = (option: string): void => {
     setSelectedOption(option);
     setIsOpen(false);
   };

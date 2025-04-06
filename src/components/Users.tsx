@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaArrowRightToBracket } from "react-icons/fa6";
 import { HiOutlineDotsVertical } from "react-icons/hi";
 import CustomDropdown3dot from "./CustomDropdown3dot";
 
 function Users() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <div className=" relative mt-6 py-[18px] px-5 bg-white border border-[#edf1f2] rounded  flex justify-between items-center">
